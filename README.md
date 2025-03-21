@@ -55,9 +55,9 @@ You can run and experiment with the code using an online Python compiler. For in
   - Simulates the process of key generation, certificate issuance, Diffie-Hellman key exchange, and certificate revocation.
 ## Expected Output
 
-When the script is executed, the expected output will look similar to this:
+**When the script is executed, the expected output will look similar to this:
 ![alt text](image-4.png)
-This confirms that the Diffie-Hellman key exchange was successful, the AES key was securely exchanged, and the certificate authority revoked Bob's certificate correctly.
+**This confirms that the Diffie-Hellman key exchange was successful, the AES key was securely exchanged, and the certificate authority revoked Bob's certificate correctly.
 ## Security Note
 This demo code is intended for educational purposes only. It should not be used as-is in production environments. In production, use thoroughly tested cryptographic libraries and follow industry best practices.
 
